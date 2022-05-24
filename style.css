@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Outfit;
+}
+
+.main {
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: auto;
+}
+
+.card {
+  width: 320px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+}
+
+#qr-code {
+  padding: 1rem;
+  border-radius: 8%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-text {
+  padding: 1rem;
+}
+
+.card-text-heading {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-text-detail {
+  padding: 1rem;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
