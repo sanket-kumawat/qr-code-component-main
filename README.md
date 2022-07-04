@@ -1,5 +1,7 @@
 # Frontend Mentor - QR code component
 
+Hosted on https://sanket-kumawat.github.io/qr-code-component-main/
+
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
