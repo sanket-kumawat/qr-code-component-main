@@ -5,43 +5,39 @@
   font-family: Outfit;
 }
 
-.main {
+main {
   height: 100vh;
   background-color: hsl(212, 45%, 89%);
   display: flex;
   justify-content: center;
-}
-
-.container {
-  margin: auto;
+  align-items: center;
 }
 
 .card {
   width: 320px;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 5%;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 #qr-code {
-  padding: 1rem;
-  border-radius: 8%;
+  border-radius: 0.75rem;
   max-width: 100%;
   max-height: 100%;
 }
 
 .card-text {
-  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .card-text-heading {
   font-size: 26px;
   font-weight: 700;
-  text-align: center;
 }
 
 .card-text-detail {
   padding: 1rem;
-  text-align: center;
   font-size: 15px;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
